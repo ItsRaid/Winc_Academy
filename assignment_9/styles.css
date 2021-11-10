@@ -1,0 +1,56 @@
+.nav-menu {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav-menu li {
+    display: inline;
+}
+
+.nav-menu a {
+    display: inline-block;
+    padding: 10px;
+    color: #154c79;
+}
+
+.nav-menu a:hover {
+    color: green;
+}
+
+.black-border {
+    border: 2px solid black;
+}
+
+.copyright {
+    border: px solid red;
+    padding: 5px;
+    margin: 10px;
+}
+
+footer {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 5px;
+    margin: 10px;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #154c79;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    border: 2px solid #154c79;
+    margin: 10px;
+    padding: 15px;
+}
+
+header {
+    border: 2px solid #154c79;
+    margin: 10px;
+    padding: 15px;
+}

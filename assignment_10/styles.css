@@ -1,0 +1,183 @@
+body {
+    background-color: #FBF3E4;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(img/hairsalon.jpg);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+}
+
+nav a {
+    color: #105652;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #678983;
+}
+
+.contact-div {
+    text-align: center;
+    margin: 50px;
+    color: black;
+}
+
+.contact-div h1 {
+    color: #105652;
+}
+
+.reservations-div {
+    text-align: center;
+    margin: 50px;
+}
+
+.reservations-div h1 {
+    color: #105652;
+}
+
+.about-div h1 {
+    color: #105652;
+}
+
+footer {
+    height: 20px;
+    width: 100%;
+    opacity: 1;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+.block {
+    float: left;
+    width: 33%;
+    border: 1px solid black;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.block-2 {
+    text-align: center;
+    border: 1px solid black;
+    float: left;
+    width: 33.3%;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.reserv-form {
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+.contact-block {
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    float: right;
+    width: 30%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+
+    nav li {
+        text-align: center;
+    }
+
+    .contact-block {
+        width: 100%;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .block {
+        width: 100%;
+        margin-bottom: 2px;
+    }
+
+    .block-2 {
+        width: 100%;
+        margin-bottom: 2px;
+    }
+
+    .reservations-div {
+        align-items: center;
+    }
+
+    .about-div {
+        text-align: center;
+    }
+
+    footer {
+    height: 40px;
+    width: 100%;
+    opacity: 1;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-top: 20px;
+    }
+
+    nav li {
+        display: flex;
+        align-items: center;
+    }
+}

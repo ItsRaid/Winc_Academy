@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <header>
+        <title>Reservations</title>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </header>
+</head>
+
+<body>
+    <main class="reservations-div">
+        <h1>
+            RESERVATIONS
+        </h1>
+        <form class="reserv-form" name="reservering" method="POST" data-netlify="true">
+            <p>
+                <label>Your name: <input type="text" name="name" /></label>
+            </p>
+            <p>
+                <label>Your Email: <input type="email" name="email" /></label>
+            </p>
+            <p>
+                <label>Your telephone number: <input type="tel" name="telephone" /></label>
+            </p>
+            <p>
+                <label>Date of reservation: <input type="date" name="date" /></label>
+            </p>
+            <p>
+                <label>Time: <input type="time" name="time" /></label>
+            </p>
+            <p>
+                <label>Gender:
+                    <input type="radio" name="gender" value="Male" />Male
+                    <input type="radio" name="gender" value="Female" />Female
+                </label>
+            </p>
+            <p>
+                <input type="reset" />
+                <input type="submit" />
+            </p>
+        </form>
+    </main>
+</body>
+
+<footer>
+    &copy; KNIP-KNAP KAPPERSZAAK 2021
+</footer>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Color Toggle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn"> <img src="img/hamburger_menu.png" width="30" height="30">
+        </button>
+        <div id="myDropdown" class="dropdown-content">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li class="Red"><a href="#" onclick="chBackcolor('red');" value="red">Red</a></li>
+                <li class="Orange"><a href="#" onclick="chBackcolor('orange');" value="orange">Orange</a></li>
+                <li class="Purple"><a href="#" onclick="chBackcolor('purple');" value="purple">Purple</a></li>
+                <li class="Green"><a href="#" onclick="chBackcolor('green');" value="green">Green</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
